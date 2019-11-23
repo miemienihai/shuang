@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+int main()
+{
+	int a;double  c, d;
+	struct book {
+		std::string  isb;
+		int   number;
+		int  price;
+	};
+	book   book1, book2;
+	std::cin >> book1.isb >> book1.number >> book2.price;
+	std::cin >> book2.isb >> book2.number >> book2.price;
+	if (book1.isb == book2.isb) {
+		
+	d = book1.number  + book2.number ;
+	c = (book1.price + book2.price) / 2;
+		std::cout << book1.isb <<d << c << std::endl;
+	}
+	else {
+		int a = -1;
+		std::cout << a;
+	}
+	return 0;
+}
